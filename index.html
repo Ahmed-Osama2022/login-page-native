@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js.map"></script>
+    <title>login page</title>
+</head>
+
+<body>
+    <div class="box ">
+        <!-- Two columns -->
+        <!-- 1-rt column -->
+        <div class="row flex-row ">
+            <div class="col-md-6 col-6 d-none d-md-flex">
+                <picture class="img_box ">
+                    <img src="/assets/bgDesktop.jpg" alt="photo" class="mw-100">
+                </picture>
+            </div>
+            <!-- 2-nd column -->
+            <!-- LOGO -->
+            <div class="col-md-6 col-12 d-flex flex-column align-items-center py-3 px-2">
+                <div class="pt-3">
+                    <div class="logo d-inline-block">
+                        <img src="/assets/LOGO.svg" class="img-fluid" alt="logo">
+                    </div>
+                    <span class="text-center fw-bold">Ahmed Khashaba design</span>
+                </div>
+                <!-- Form -->
+                <div class="form pt-3 mt-5">
+                    <div class="text-center">
+                        <h1 class="fs-bold">Welcome Back</h1>
+                        <p class="fw-light text-muted ">Enter your email and password to access your account</p>
+                    </div>
+                    <form class="py-3">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="Enter your email"
+                                id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" placeholder="Enter your passwrod"
+                                id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check d-flex flex-row justify-content-between align-items-center">
+                            <div>
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                            </div>
+                            <a href="#" class="forget">Forget Password</a>
+                        </div>
+                        <button type="submit" class="btn btn-dark w-100">Submit</button>
+                        <!-- <button type="button" class="btn btn-outline-dark w-100 mt-2"><i -->
+                        <!-- class="fa-brands fa-google"></i> Sign in with Google</button> -->
+                        <button type="button" class="btn btn-outline-dark w-100 mt-2"><img
+                                src="/assets/Google-vector.svg" class=" google-vector" alt="google-image">
+                            <span class="ms-1">Sign in with Google</span></button>
+                    </form>
+                </div>
+                <!-- Register -->
+                <p class="pt-5">Don't have an acccout? <span class="text-capitalize fw-bold "><a href="#">Sign
+                            up</a></span></p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
