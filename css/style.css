@@ -28,7 +28,32 @@ body {
   /* OuterR = innerR + Padding */
   border-radius: 14px;
 }
-
+.right_col {
+  position: relative;
+}
+.banner {
+  position: absolute;
+  bottom: 25px;
+  /* background-color: #dfe1e5; */
+  left: 40px;
+  width: 75%;
+  color: #f0f0f0;
+}
+.banner h1,
+.banner h2 {
+  width: 30%;
+  font-size: 42pt;
+  line-height: 45px;
+}
+.banner p {
+  font-size: 12px;
+}
+.banner h1,
+.banner h2,
+.banner h3 {
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: -2px;
+}
 picture {
   overflow: hidden;
   margin: auto;
